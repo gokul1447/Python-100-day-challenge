@@ -1,6 +1,9 @@
 import random
+import art
 repeat='y'
 while repeat=='y':
+    print(art.logo)
+
 
     print("welcome to the number guessing game!")
     num=random.randint(1,100)
